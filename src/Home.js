@@ -1,6 +1,6 @@
-import React from 'react'
-import './Home.css'
-import './App.css'
+import React from 'react';
+import './Home.css';
+import './App.css';
 import logo from "./img/logo.png"
 
 function Home() {
