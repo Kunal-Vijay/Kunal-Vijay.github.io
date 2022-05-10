@@ -64,9 +64,9 @@ p{
 .pz__10{
   padding: 10px 0px;
 }
+
 .red{
-  /* color: #F9004D; */
-  color: rgba(249, 0, 77,1);
+  color: #F9004D!important;
 }
 .row{
   display: flex;
