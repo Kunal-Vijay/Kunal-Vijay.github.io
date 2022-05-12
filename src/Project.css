@@ -98,3 +98,15 @@ a.project__btn:hover {
     color: #fff !important;
     background-color: #ffffff;
 }
+
+/* Responsive */
+@media only screen and (max-width:1024px) {
+  h5.project__text{
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  h4.project__text{
+    font-size: 18px;
+  }
+}
