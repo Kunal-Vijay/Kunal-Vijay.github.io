@@ -4,7 +4,7 @@ import "./App.css";
 
 function Services() {
     return (
-        <div className="services component__space">
+        <div className="services component__space" id='Services'>
             <div className="heading">
                 <h1 className="heading">My Awesome Services</h1>
                 <p className='heading p__color'>This is the list of services that I Provide</p>

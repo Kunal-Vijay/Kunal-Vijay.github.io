@@ -8,7 +8,7 @@ import Project4 from "./img/portfolio-4.jpg";
 
 function Project() {
     return (
-        <div className="project component__space">
+        <div className="project component__space" id='Project'>
             <div className="heading">
                 <h1 className="heading">My Latest Projects</h1>
                 <p className='heading p__color'>This is the list of Projects that I made or worked on</p>
