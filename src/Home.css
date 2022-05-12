@@ -1,5 +1,7 @@
 .home__bg {
-  background-image: url(./img/bg.jpg);
+  /* background-image: url(./img/bg.jpg); */
+  /* background-image: url(./img/bg2.jpg); */
+  background-image: url(./img/bg3.jpg);
   background-color: #010101;
   background-position: 50%;
   background-size: cover;
@@ -76,6 +78,9 @@ li.sideNavbar{
 
 /* Responsive */
 @media only screen and (max-width: 768px) {
+  .home__bg{
+    background-image: url(./img/bg3.jpg);
+  }
   .header {
     justify-content: space-between;
   }
@@ -95,6 +100,9 @@ li.sideNavbar{
 }
 
 @media only screen and (max-width: 425px){
+  .home__bg{
+     background-image: url(./img/bg2.jpg);
+  }
   h2.home__text.pz__10.white{
     font-size: 32px!important;
   }

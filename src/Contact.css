@@ -24,7 +24,7 @@ input.contact {
   display: block;
   width: 100%;
   padding: 0 20px;
-  border: 2px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid hsla(0%, 0%, 100%, 0.2)!important;
   border-radius: 5px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -36,7 +36,6 @@ input.contact {
   font-size: 15px;
   letter-spacing: 1px;
   background: none;
-  border: 2px solid hsla(0%, 0%, 100%, 0.2);
 }
 
 textarea#message {

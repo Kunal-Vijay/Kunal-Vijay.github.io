@@ -47,7 +47,7 @@ function Home() {
                 <li className="sideNavbar"><a href="#Contact">Contact</a></li>
               </ul>
             </div>
-          ):null}
+          ) : null}
         </div>
         {/* HOME CONTENT */}
         <div className="container">
@@ -58,7 +58,6 @@ function Home() {
               <h3 className="home__text red pz__10">Web Developer</h3>
               <h4 className="home__text pz__10 white">based in India</h4>
             </div>
-
           </div>
         </div>
       </div>
