@@ -11,7 +11,7 @@ function Blog() {
         <div className="blog component__space" id='Blog'>
             <div className="heading">
                 <h1 className="heading">My Blogs</h1>
-                <p className='heading p__color'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quasi nihil praesentium exercitationem perferendis corrupti similique molestias nesciunt maiores deleniti?</p>
+                <p className='heading p__color'>No Blogs Yet. New Blogs will be coming soon !</p>
             </div>
             <div className="container">
                 <div className="row">
