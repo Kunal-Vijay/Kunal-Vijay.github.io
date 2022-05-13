@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Footer.css";
 import "./App.css";
-import footerImg from './img/logo.png'
+import footerImg from './img/logo (1).png'
 function Footer() {
   return (
       <div className="footer d__flex align__items__center justify__content__space__between pz__10">
