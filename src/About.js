@@ -5,9 +5,9 @@ import aboutImg from "./img/about.jpg";
 
 function About() {
     // up to top btn
-    window.addEventListener("scroll",function(){
+    window.addEventListener("scroll", function () {
         const upToTop = document.querySelector("a.bottom__to__top");
-        upToTop.classList.toggle("active",window.scrollY>0);
+        upToTop.classList.toggle("active", window.scrollY > 0);
     });
 
     return (
@@ -21,17 +21,17 @@ function About() {
                         <h1 className="about__heading">  About Me  </h1>
                         <div className="about__meta">
                             <p className="about__text p__color">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto porro fuga maxime. Nisi voluptatum officia quisquam voluptate, debitis voluptatem laborum repellat, alias accusantium porro sit, recusandae autem ab dolore saepe tempora. Laudantium voluptates, autem numquam tenetur consequatur quisquam aut voluptas, eos reiciendis harum nesciunt omnis animi alias nemo ratione debitis?
+                                Hey! My name is Kunal Vijay and Tech enthusiast with a love for reading. I am currently a sophomore at IIIT Bhopal pursuing B.tech degree in Information.
                             </p>
                             <p className="about__text p__color">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto porro fuga maxime. Nisi voluptatum officia quisquam voluptate, debitis voluptatem laborum repellat, alias accusantium porro sit, recusandae autem ab dolore saepe tempora. Laudantium voluptates, autem numquam tenetur consequatur quisquam aut voluptas, eos reiciendis harum nesciunt omnis animi alias nemo ratione debitis?
+                                I'm Assistant Web Development Lead at Google Developer Student Clubs(GDSC), IIIT Bhopal. I am an aspiring Full Stack Web Developer and also exploring the feild of Competitive Programming. I am currently learning MERN Stack Development and Data Structures and Algorithms. I have good communication and interpersonal skills. Passionate in collaborating with new people and brainstorming on topics of mutual interest.
                             </p>
                             <p className="about__text p__color">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto porro fuga maxime. Nisi voluptatum officia quisquam voluptate, debitis voluptatem laborum repellat, alias accusantium porro sit.
+                                Experience in being in-charge of various inter/intra school projects and held positions of responsibility as a House Captain, which instilled necessary skills to act as a better team leader and a team player.
                             </p>
                             <div className="about__button d__flex align__items__center">
-                                <a href="#CV"><button className="about btn pointer">Download CV</button></a>
-                                <a href="#Hire"><button className="about btn pointer">Hire Me</button></a>
+                                <a href="https://drive.google.com/drive/folders/1mxl5D93VnXTCXAVSpoMyHsL-z6UakAnT?usp=sharing"><button className="about btn pointer">Download CV</button></a>
+                                <a href="#Contact"><button className="about btn pointer">Hire Me</button></a>
                             </div>
                         </div>
                     </div>

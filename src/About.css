@@ -1,6 +1,10 @@
 .about{
     background-color: #191919;
 }
+
+.p__color{
+  font-size: 22px!important;
+}
 img.about__img {
   border-radius: 10px;
   width: 100%;
