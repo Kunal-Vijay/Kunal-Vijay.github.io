@@ -1,7 +1,7 @@
 import React from 'react';
 import "./About.css";
 import "./App.css";
-import aboutImg from "./img/about.jpg";
+import aboutImg from "./img/about.jpeg";
 
 function About() {
     // up to top btn
@@ -21,16 +21,16 @@ function About() {
                         <h1 className="about__heading">  About Me  </h1>
                         <div className="about__meta">
                             <p className="about__text p__color">
-                                Hey! My name is Kunal Vijay and Tech enthusiast with a love for reading. I am currently a sophomore at IIIT Bhopal pursuing B.tech degree in Information.
+                                Hey! My name is Kunal Vijay and Tech enthusiast with a love for reading. I am currently a final year student at IIIT Bhopal pursuing B.tech degree in Information Technology.
                             </p>
                             <p className="about__text p__color">
-                                I'm Assistant Web Development Lead at Google Developer Student Clubs(GDSC), IIIT Bhopal. I am an aspiring Full Stack Web Developer and also exploring the feild of Competitive Programming. I am currently learning MERN Stack Development and Data Structures and Algorithms. I have good communication and interpersonal skills. Passionate in collaborating with new people and brainstorming on topics of mutual interest.
+                            I have been an active programmer and proficient in C/C++ and Java. Apart from this My Tech stack also include MERN stack , NextJS, tailwind and other related web development technologies. Passionate in collaborating with new people and brainstorming on topics of mutual interest.
                             </p>
                             <p className="about__text p__color">
-                                Experience in being in-charge of various inter/intra school projects and held positions of responsibility as a House Captain, which instilled necessary skills to act as a better team leader and a team player.
+                            As for experience I have done two internships as  a SDE Intern at Algowiz and Frontend Developer at Profitlabs where I developed website frontend from scratch in NextJS and ReactJS. Moreover, I got the privilege to manage my team in both the internships. Also  At IIIT Bhopal, I served as the Asst. Web Development Lead for GDSC  IIITB of 2022 where I got to work on trending web development Technologies.
                             </p>
                             <div className="about__button d__flex align__items__center">
-                                <a href="https://drive.google.com/drive/folders/1mxl5D93VnXTCXAVSpoMyHsL-z6UakAnT?usp=sharing"><button className="about btn pointer">Download CV</button></a>
+                                <a href="https://drive.google.com/file/d/175jCiV103r_b7xuzJMJVLBZJP0JdSir_/view?usp=sharing" target='_blank'><button className="about btn pointer">Download CV</button></a>
                                 <a href="#Contact"><button className="about btn pointer">Hire Me</button></a>
                             </div>
                         </div>
