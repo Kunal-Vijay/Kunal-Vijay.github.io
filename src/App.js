@@ -6,6 +6,8 @@ import Project from './Project';
 import Blog from './Blog';
 import Contact from './Contact';
 import Footer from './Footer';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
       <Blog/>
       <Contact/>
       <Footer/>
+      <ToastContainer theme="colored" />
     </div>
   );
 }
