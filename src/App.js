@@ -1,13 +1,12 @@
-import './App.css';
-import Home from './Home';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import About from './About';
-import Services from './Services';
-import Project from './Project';
-import Blog from './Blog';
+import './App.css';
 import Contact from './Contact';
 import Footer from './Footer';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import Home from './Home';
+import Project from './Project';
+import Services from './Services';
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
       <About />
       <Services />
       <Project/>
-      <Blog/>
+      {/* <Blog/> */}
       <Contact/>
       <Footer/>
       <ToastContainer theme="colored" />

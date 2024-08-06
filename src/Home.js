@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./Home.css";
 import "./App.css";
-import logo from "./img/logo.png";
+import "./Home.css";
 import homeImg from "./img/home.png";
+import logo from "./img/logo.png";
 
 function Home() {
   // fixed header
@@ -92,7 +92,7 @@ function Home() {
               <div className="home__meta">
                 <h1 className="home__text pz__10">WELCOME TO MY WORLD</h1>
                 <h2 className="home__text pz__10 white">Hi, I'm Kunal Vijay</h2>
-                <h3 className="home__text red pz__10">Web Developer</h3>
+                <h3 className="home__text red pz__10">Software Developer</h3>
                 <h4 className="home__text pz__10 white">based in India</h4>
               </div>
             </div>

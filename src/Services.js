@@ -1,6 +1,6 @@
 import React from 'react';
-import "./Services.css";
 import "./App.css";
+import "./Services.css";
 
 function Services() {
     return (
@@ -18,7 +18,7 @@ function Services() {
                             </div>
                             <div className="service__meta">
                                 <h1 className="service__text">Frontend Development</h1>
-                                <p className="service__text p p__color">I provide front end website development service in HTML, CSS, JS and ReactJS</p>
+                                <p className="service__text p p__color">I provide front end website development service in HTML, CSS, JS ,ReactJS and Next.js</p>
 
                             </div>
                         </div>
@@ -30,7 +30,7 @@ function Services() {
                             </div>
                             <div className="service__meta">
                                 <h1 className="service__text">Backend Development</h1>
-                                <p className="service__text p p__color">I provide back end  development service in NodeJS, ExpressJS, MongoDB & MySQL.</p>
+                                <p className="service__text p p__color">I provide back end  development service in NodeJS, ExpressJS, TypeScript, PostgreSQL, MongoDB & MySQL.</p>
 
                             </div>
                         </div>
